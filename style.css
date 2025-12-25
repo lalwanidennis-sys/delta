@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+.red{
+    background-color: #f807839f;
+}
+.green{
+    background-color: rgb(201, 97, 6);
+}
+.yellow{
+    background-color: rgba(4, 65, 86, 0.572);
+}
+.purple{
+    background-color: rgba(13, 184, 241, 0.572);
+}
+
+.flash{
+    background-color: white;
+}

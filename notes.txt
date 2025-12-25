@@ -1,0 +1,5 @@
+logic 
+
+(1) press btn to start game
+(2) after btn press flash colour + level 1
+(3) 
